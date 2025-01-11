@@ -116,13 +116,31 @@ margin: 20px auto;
     line-height: 20px;
     margin-bottom: 20px;
 } 
-hr {
+#benefits h3 {
+  font-size: 130%;
+}
+#benefits hr {
     border-top: 1px solid #3a3a3a;
     margin: 5px 0;
 }
-p {
+#benefits p {
     padding: 0 20px;
 }
+#circle-cover-bg {
+    background: url("../images/runner.webp") no-repeat top center / cover;
+    height: 90vw;
+    width: 90vw;
+    margin-bottom: 20px;
+    border-radius: 50%;
+    max-width: 300px;
+    max-height: 300px;
+}
+#benefits-image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 /*footer*/
 #social-networks {
     text-align: center;
