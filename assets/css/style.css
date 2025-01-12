@@ -17,6 +17,7 @@ body {
     font-family: 'Lato', sans-serif;
 }
 
+
 h1, h2, h3 {
     font-family: 'Oswald', sans-serif;
     text-transform: uppercase;
@@ -43,6 +44,12 @@ header a{
     color: inherit;
 }
 
+header h1 {
+    font-size: 300%
+}
+.fa-solid fa-bars{
+    font-size: 150%
+}
 #menu {
     list-style-type: none;
     letter-spacing: 4px;
@@ -159,6 +166,17 @@ margin: 20px auto;
 
 #times h3 {
     color: #fafafa;
+}
+
+/* Gallery Page */
+#photos img {
+    width: 100%;
+    line-height: 1;
+    
+}
+
+#photos {
+    line-height: 0;
 }
 
 /*footer*/
